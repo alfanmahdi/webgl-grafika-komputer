@@ -117519,5 +117519,5 @@ var indices = [
     14828, 13745, 28438,
 ];
 
-var lightBlueColor = [0.678, 0.847, 0.902]; // RGB for light blue
+var lightBlueColor = [1, 0, 1]; // RGB for light blue
 var colors = new Array(vertices.length / 3).fill(lightBlueColor).flat();
