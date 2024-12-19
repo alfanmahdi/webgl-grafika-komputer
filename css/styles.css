@@ -1,0 +1,50 @@
+/* Reset CSS dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  gap: 24px;
+}
+
+/* Gaya untuk canvas */
+canvas {
+  border: 2px solid #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  background-color: #fff;
+  width: 1200px;
+  height: 550px;
+}
+
+/* Gaya untuk tombol reset */
+button#resetBtn {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button#resetBtn:hover {
+  background-color: #005a9e;
+  transform: scale(1.05);
+}
+
+button#resetBtn:active {
+  background-color: #00457c;
+  transform: scale(1);
+}
